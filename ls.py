@@ -3,7 +3,7 @@ from random import choice
 first = 'Мама мыла раму'
 second = 'Рамена мало было'
 
-print(list(map(lambda x,y: x==y, first, second)))
+print(list(map(lambda a,b: a==b, first, second)))
 
 
 def get_advanced_writer(file_name):
